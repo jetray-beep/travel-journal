@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #B2BEB5;
+}
+
+nav{
+    display:flex;
+    margin:20px 20px;
+    align-items: center;
+    background-color: white;
+    height:200px;
+    box-shadow: 0px 0.98256px 1.4564px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-color:#36454F
+}
+
+.nav--logo{
+    width:100px;
+    height:100px;
+    margin-left:auto;
+}
+
+.nav--title{
+    color:black;
+    font-weight: 600;
+    margin-right: auto;
+    padding: 20px 20px;
+    font-size:34px;
+    font-family: Pacifico, cursive;
+    letter-spacing: 0.4rem;
+    color:white;
+}
+
+.main{
+    margin-top:50px;
+    display:flex;
+    margin-bottom:50px;
+}
+
+.main--image{
+    width:270px;
+    height:300px;
+    margin-left:auto;
+    border-radius:20px;
+}
+
+.location--image{
+    width:13px;
+    height:16px;
+    margin-right:5px;
+}
+
+.main--details{
+    margin-top:25px;
+    margin-right:auto;
+    padding-left:50px;
+}
+
+.headers{
+    display:flex;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.one{
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size:20px;
+}
+
+.two{
+    margin-left:30px;
+    font-size:20px;
+    color:gray;
+}
+
+.google{
+    text-decoration: underline;
+}
+.two a{
+    font-variant:small-caps;
+    text-decoration: none;
+    color:gray;
+}
+
+.title{
+    margin-top:-13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+}
+
+.dates{
+    font-family: 'Varela Round', sans-serif;
+    font-weight:bold;
+}
+
+.description{
+    font-family: "Work Sans", sans-serif;
+    max-width:500px;
+}
