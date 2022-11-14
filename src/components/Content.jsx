@@ -4,10 +4,10 @@ import "./../App.css"
 export default function Navbar(props){
     return(
         <div className="main">
-            <img className="main--image" src={`./../../public/images/${props.item.imageUrl}`}/>
+            <img className="main--image" src={`./../images/${props.item.imageUrl}`}/>
             <div className="main--details">
                 <div className="headers">
-                    <p className="one"> <img className="location--image" src="./../../public/images/location.png"/>{props.location}</p>
+                    <p className="one"> <img className="location--image" src="./../images/location.png"/>{props.location}</p>
                     <p className="two">View on <a href={props.item.googleMapsUrl}>
                         <span className="google">Google Maps</span></a></p>
                 </div>
