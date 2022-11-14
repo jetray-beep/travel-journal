@@ -7,7 +7,7 @@ export default [
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "mount_fuji.jpg"
+        imageUrl: "./../public/images/mount_fuji.jpg"
     },
 
     {
@@ -18,7 +18,7 @@ export default [
         startDate: "18 Feb, 2021",
         endDate: "02 Mar, 2021",
         description: "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th century architecture.",
-        imageUrl: "sydney_opera.jpg"
+        imageUrl: "./../public/images/sydney_opera.jpg"
     },
 
     {
@@ -29,6 +29,6 @@ export default [
         startDate: "1 Jan, 2022",
         endDate: "11 Jan, 2022",
         description: "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal.",
-        imageUrl: "taj_mahal.jpg"
+        imageUrl: "./../public/images/taj_mahal.jpg"
     }
 ]
